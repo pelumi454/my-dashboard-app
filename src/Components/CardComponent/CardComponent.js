@@ -6,12 +6,12 @@ const CardComponent = (props) => {
         <div >
             <div class="card mt-5">
             <div class="card-body">
-               {props.item.name.first}
-              <img src={props.item.picture.medium}/> 
+              <img src={props.item.picture.medium} className="img-thumbnail card-image"/> 
              </div>
         </div>
-           {/* {}  */}
+       
         </div>
+
     )
 }
 
