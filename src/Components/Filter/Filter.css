@@ -1,0 +1,43 @@
+.filter-search{
+    width: 200px;
+    height: 40px;
+    background-color: #E2E3EC;
+    color: #B0B2BF;
+    opacity: 0.8;
+    margin-left: 40px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.filter-button{
+    width: 150px;
+    height: 40px;
+    opacity: 0.8;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.toggle{
+    color: #30BBB5;
+    font-size: 25px;
+}
+
+#dropdownMenuButton{
+    background-color: #E2E3EC;
+    color: #B0B2BF;
+    border-radius: 40px;
+    border: none;  
+}
+
+.show-country{
+    color: #B0B2BF;;
+}
+
+/* width: 50vw;
+    height: 94vh;
+    margin: 20px;
+    padding: 50px;
+    background-color: #F7F7FF;
+    color:black;
+    border-radius: 15px; */
