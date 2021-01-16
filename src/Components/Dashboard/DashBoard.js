@@ -2,13 +2,10 @@ import React from 'react'
 import AllUsers from '../AllUsers/AllUsers'
 import Emerald from '../Emerald/Emerald'
 
-const DashBoard = () => {
+const DashBoard = (props) => {
     return (
         <div className="dashboard">
-             <div className="row dashboard-row">
-             <Emerald></Emerald>
-            <AllUsers></AllUsers>
-             </div>
+             {props.children}
         </div>
     )
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import Filter from '../Filter/Filter'
 import './CardComponent.css'
-import {Link} from 'react-router-dom'
 
 class CardComponent extends Component {
     constructor(props) {
@@ -14,7 +13,7 @@ class CardComponent extends Component {
     }
  
     componentDidMount (){
-    axios.get('https://randomuser.me/api/?results=3')
+    axios.get('https://randomuser.me/api/?gender=male&results=3')
     .then(res=> {
         const data = res.data.results
         console.log(data)
@@ -33,7 +32,7 @@ class CardComponent extends Component {
             
             <div >
             <div className="row">
-                <p className="allusers-p col-3 ml-2">All Users</p>
+                <p className="allusers-p col-3 ml-2">Male Users</p>
                 </div>
                 <div className="row">
                     <div className="allusers-filter col-2 ml-3">Filter By</div>
@@ -59,9 +58,7 @@ class CardComponent extends Component {
                         </span>
                         {item.phone}
                         <span>
-                        <Link to="/userlist">
-                         <button className="ml-2 card-button"><i class="fa fa-arrow-right"></i></button>
-                         </Link>
+                            <button className="ml-2 card-button"><i class="fa fa-arrow-right"></i></button>
                         </span>
                          </div>
                         </div>

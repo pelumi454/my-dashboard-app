@@ -1,16 +1,79 @@
-.card-body{
-    background-color: #fff;
+.all-users{
+    width: 48vw;
+    height: 94vh;
+    padding: 50px;
+    background-color: #F7F7FF;
+    margin-top: 15px;
+    background-color: #F7F7FF;
+    color:black;
+    border-radius: 10px;
 }
 
-.card{
-    width: 500px;
-    height: 100px;
+ .allusers-p{
+    color: #262A41;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+} 
+
+.searchbutton2{
+    width: 200px;
+    height: 50px;
+    background-color: #E2E3EC;
+    opacity: 0.8;
+    margin-left: 40px;
     border: none;
-    border-radius: 40px;
-    
+    border-radius: 10px;
+    margin-top: 10px;
+   
 }
 
-.img-thumbnail{
-    border-radius: 50px;
-    
+.all-select{
+    width: 200px;
+    height: 50px;
+    background-color: #E2E3EC;
+    opacity: 0.8;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
 }
+
+.allusers-filter{
+    color: #B0B2BF;
+}
+.card{
+    width: 560px;
+    height: 120px;
+    background: #FCFCFF;
+    box-shadow: 10px 10px 40px #0000000D;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.img-card{
+    border-radius: 50px;
+    border: 5px solid #75D6D1;
+}
+
+.card-details{
+    font-size: 14px;
+}
+
+.card-info{
+    color: #262A41;
+    opacity: 0.69;
+}
+
+.card-name{
+    font-size: 16px;
+    color: #262A41;
+}
+
+.card-button{
+    background-color: #30BBB5;
+    border: none;
+    color: #fff;
+}
+
+
+

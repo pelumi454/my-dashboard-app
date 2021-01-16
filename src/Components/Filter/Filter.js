@@ -4,7 +4,7 @@ import './Filter.css'
 const Filter = () => {
     return (
             <div class="search-container row">
-                       <button type="submit" className=" col-4 ml-5 filter-search"><i class="fa fa-search"></i>Find in list</button>
+                       <button type="submit" className=" col-4  filter-search"><i class="fa fa-search"></i>Find in list</button>
                        <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle filter-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Country

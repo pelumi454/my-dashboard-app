@@ -14,9 +14,10 @@
     padding-top: 150px;
  } 
 
- .header{
+ .header-title{
      font-size: 25px;
-    font-family: 'Rajdhani', sans-serif;
+     font-weight: 100;
+    margin-left: 73px;
  }
  
  .span{
@@ -26,6 +27,7 @@
  .dashboard-p{
      color: #747698;
      font-size: 12px;
+     margin-left: 73px;
  }
 
 .searchbutton{
@@ -41,43 +43,15 @@
    
 }
 
-.all-users{
+.show-user{
+    margin-left: 73px;
+}
+
+/* width: 50vw;
+    height: 94vh;
+    padding: 50px;
+    background-color: #F7F7FF;
     margin-top: 10px;
     background-color: #F7F7FF;
     color:black;
-    border-radius: 10px;
-    min-height: 650px;
-}
-
- .allusers-p{
-    color: #262A41;
-    font-size: 24px;
-    font-family: 'IBM Plex Sans', sans-serif;
-} 
-
-.searchbutton2{
-    width: 200px;
-    height: 50px;
-    background-color: #E2E3EC;
-    opacity: 0.8;
-    margin-left: 40px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-   
-}
-
-.all-select{
-    width: 200px;
-    height: 50px;
-    background-color: #E2E3EC;
-    opacity: 0.8;
-    margin-left: 30px;
-    border: none;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.allusers-filter{
-    color: #B0B2BF;
-}
+    border-radius: 10px; */
